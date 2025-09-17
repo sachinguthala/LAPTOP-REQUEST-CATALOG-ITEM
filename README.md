@@ -32,7 +32,7 @@ Category: Hardware
 
 Short Description: Use this item to request a new laptop
 
- Variables Created
+ 4. Variables Created
 
 Laptop Model – Single Line Text
 
@@ -42,11 +42,11 @@ Additional Accessories – Checkbox
 
 Accessories Details – Multi Line Text
 
- Dynamic Behavior
+ 5. Dynamic Behavior
 
 UI Policy: Shows and makes Accessories Details mandatory when Additional Accessories is checked.
 
- UI Action (Reset Button)
+ 6. UI Action (Reset Button)
 
 Table: sc_cart
 
@@ -59,7 +59,7 @@ function resetForm() {
     alert("The form has been reset.");
 }
 
- Update Set Migration
+7. Update Set Migration
 
 Export the Update Set (Laptop Request) as XML.
 
@@ -67,7 +67,7 @@ Import into another instance via Retrieved Update Sets.
 
 Preview → Commit to apply changes.
 
- Testing
+8. Testing
 
 Navigate to Service Catalog → Hardware.
 
@@ -77,7 +77,7 @@ Verify dynamic behavior:
 
 Checking Additional Accessories → shows & requires Accessories Details.
 
- Conclusion
+9. Conclusion
 
 This project:
 
@@ -87,7 +87,7 @@ Replaces manual processes with a streamlined ServiceNow workflow.
 
 Improves accuracy, efficiency, and employee satisfaction.
 
- Repository Contents
+10. Repository Contents
  Update-Set/ → XML file of the project
  README.md → Documentation (this file)
 
