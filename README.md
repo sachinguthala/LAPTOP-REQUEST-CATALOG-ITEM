@@ -1,4 +1,5 @@
 Laptop Request Catalog Item – ServiceNow Project
+
  Problem Statement:
 
 Employees in an organization need a quick and efficient way to request laptops for work.
@@ -41,7 +42,7 @@ Additional Accessories – Checkbox
 
 Accessories Details – Multi Line Text
 
-🎛 Dynamic Behavior
+ Dynamic Behavior
 
 UI Policy: Shows and makes Accessories Details mandatory when Additional Accessories is checked.
 
